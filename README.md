@@ -19,7 +19,8 @@ The repos below are public rebuilds of these patterns on synthetic data. Happy t
 | Repo | What it shows | Result |
 | --- | --- | --- |
 | [llm-compliance-judge](https://github.com/IbramGhali/llm-compliance-judge) | Two-stage LLM judge, verbatim-evidence checks, human review queue, CI regression gate | Golden-set macro F1 0.89, kappa 0.90; ~$0.03 per call |
-<!-- Add rows as each new repo goes public: tax-statement-engine, rag-slack-assistant, voice-ai-receptionist, llm-gateway -->
+| [tax-statement-engine](https://github.com/IbramGhali/tax-statement-engine) | Deterministic figures, cross-source validation with a blocking gate, one grounded LLM call, resilient provider client | 720/720 figures exact vs ground truth; 100% completion under injected faults |
+<!-- Add rows as each new repo goes public: rag-slack-assistant, voice-ai-receptionist, llm-gateway -->
 
 ### Stack
 
