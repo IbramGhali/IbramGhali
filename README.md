@@ -20,7 +20,9 @@ The repos below are public rebuilds of these patterns on synthetic data. Happy t
 | --- | --- | --- |
 | [llm-compliance-judge](https://github.com/IbramGhali/llm-compliance-judge) | Two-stage LLM judge, verbatim-evidence checks, human review queue, CI regression gate | Golden-set macro F1 0.89, kappa 0.90; ~$0.03 per call |
 | [tax-statement-engine](https://github.com/IbramGhali/tax-statement-engine) | Deterministic figures, cross-source validation with a blocking gate, one grounded LLM call, resilient provider client | 720/720 figures exact vs ground truth; 100% completion under injected faults |
-<!-- Add rows as each new repo goes public: rag-slack-assistant, voice-ai-receptionist, llm-gateway -->
+| [rag-slack-assistant](https://github.com/IbramGhali/rag-slack-assistant) | Hybrid retrieval with re-ranking, citations checked in code, refusal below an evidence threshold, Slack front end | 92% answer accuracy; 10/10 unanswerable refused |
+| [voice-ai-receptionist](https://github.com/IbramGhali/voice-ai-receptionist) | Vapi voice agent with webhooks that enforce bookings, caller identity and mandatory escalation | 30/30 simulated calls; 0 hallucinated bookings |
+| [llm-gateway](https://github.com/IbramGhali/llm-gateway) | One API across Claude, GPT and Gemini with team budgets, redaction before logging and fallbacks | ~1 ms overhead; 0 PII leaks in 400 planted values |
 
 ### Stack
 
